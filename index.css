@@ -25,4 +25,7 @@
   font-size: 12pt;
   color: white;
   background-color: #ff0000;
+  position: relative;
+  margin-bottom: 0;
+  
 }
