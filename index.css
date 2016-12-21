@@ -4,6 +4,9 @@
   min-height: 50%;
   font-size: 48pt;
   background-color: white;
+  text-align: left;
+  position: relative;
+  bottom: 0;
   
 }
 
@@ -13,5 +16,8 @@
   min-height: 50%;
   font-size: 48pt;
   background-color: black;
-
+  text-align: left;
+  position: relative;
+  margin-top: 0;
+  
 }
