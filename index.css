@@ -4,8 +4,8 @@
   font-size: 140pt;
   background-color: white;
   text-align: left;
-  position: ;
-  margin-bottom: ;
+  position: relative;
+  margin-bottom: 0;
   
 }
 
@@ -15,8 +15,8 @@
   font-size: 140pt;
   background-color: black;
   text-align: left;
-  position: ;
-  margin-top: ;
+  position: relative;
+  margin-top: 0;
   
 }
 
