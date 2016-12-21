@@ -5,8 +5,11 @@
   font-size: 140pt;
   background-color: white;
   text-align: left;
-  position: relative;
-  margin-bottom: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 50%;
   
 }
 
@@ -17,8 +20,11 @@
   font-size: 140pt;
   background-color: black;
   text-align: left;
-  position: relative;
-  margin-top: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  bottom: 0;
   
 }
 
