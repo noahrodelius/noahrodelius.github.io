@@ -5,7 +5,7 @@
   font-size: 48pt;
   background-color: white;
   text-align: left;
-  position: relative;
+  position: absolute;
   bottom: 0;
   
 }
@@ -17,7 +17,7 @@
   font-size: 48pt;
   background-color: black;
   text-align: left;
-  position: relative;
+  position: absolute;
   margin-top: 0;
   
 }
