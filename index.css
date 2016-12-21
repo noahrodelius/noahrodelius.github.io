@@ -1,50 +1,78 @@
-#noah{
-  font-family: monospace;
-  font-weight: bold;
-  color: black;
-  font-size: 140pt;
-  background-color: white;
-  text-align: left;
+div.parallax-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+div.parallax-container div.parallax {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 1000%;
+	text-align: center;
+	height: 100%;
+	font-weight: bold;
+}
+.parallax1 {
+	color: #555;
+	font-size: 250px;
+	line-height: 80%;
+}
+.parallax2 {
+	color: ;
+	font-size: 160px;
+	line-height: 150%;
+}
+.parallax3 {
+	color: #fff;
+	font-size: 50px;
+	line-height: 760%;
 }
 
-#noahPadding{
-  height: 50%;
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 50%;
-  
+.container{
+	font-family: Courier;
+	position: absolute;
+	top: 24%;
+	right: 0;
+	left: 0;
+	bottom: 0%;
+	text-align: left;
 }
 
-#rodelius{
-  font-family: monospace;
-  font-weight: bold;
-  height: 50%;
+#info{
+  font-size: 12pt;
   color: white;
-  font-size: 140pt;
-  background-color: black;
-  text-align: left;
-  position: absolute;
+	padding: 10px;
+  background-color: #ff0000;
+	width: 15%;
+}
+
+#description{
+	padding: 10px;
+	width: 15%;
+	font-size: 14pt;
+}
+
+#topTitle{
+	color: black;
+}
+
+#bottomTitle{
+	color: white;
+}
+
+#bottomBox{
+	background-color: black;
+	position: absolute;
   top: 50%;
   right: 0;
   left: 0;
   bottom: 0;
-  
+	height: 100%;
 }
 
-#info{
-  height: 20%; 
-  font-size: 12pt;
-  color: white;
-  background-color: #ff0000;
-  position: relative;
-  margin-top: 30%;
-  margin-bottom: 0;
-  padding: 10%;
-  
+body{
+	margin: 0;
+	padding: 0;
 }
 
-body, html, {
-  height: 100%;
-}
