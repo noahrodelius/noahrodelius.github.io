@@ -1,7 +1,7 @@
 #noah{
   font-family: monospace;
   color: black;
-  height: 50%;
+  min-height: 50%;
   font-size: 48pt;
   background-color: white;
   
@@ -10,7 +10,7 @@
 #rodelius{
   font-family: monospace;
   color: white;
-  height: 50%;
+  min-height: 50%;
   font-size: 48pt;
   background-color: black;
 
