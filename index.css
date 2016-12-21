@@ -1,5 +1,5 @@
 #noah{
-  font-family: Courier;
+  font-family: monospace;
   font-weight: bold;
   color: black;
   font-size: 140pt;
@@ -18,7 +18,7 @@
 }
 
 #rodelius{
-  font-family: Courier;
+  font-family: monospace;
   font-weight: bold;
   height: 50%;
   color: white;
