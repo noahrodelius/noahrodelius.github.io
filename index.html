@@ -18,7 +18,7 @@
            NOAH 
           </div>
           <div> 
-          
+          <p id="info" onclick="switchInfo();" onmouseover="this.style.background='black'; this.style.color='#D5FDD5';" onmouseout="this.style.background='none'; this.style.color='black';" style="border: 1px solid black; text-align:center;">+info</p>
           </div>  
         </div>
       </div>
@@ -36,4 +36,19 @@
     </div>
    </div>
   </body>
+  <script type="text/javascript">
+	function switchInfo(){
+		$("#info").html(function () {
+			$(".info").css("padding","10px");
+			$("#info").html(
+			"i"
+      );
+		});
+		$("#info").click(function(){
+			$(".info").css("padding","0px");
+			$("#info").html("i");
+			$("#info").off("click");
+		});
+	};
+  </script>
 </html>
