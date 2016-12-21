@@ -1,6 +1,5 @@
 #noah{
   font-family: monospace;
-  height: 50%;
   color: black;
   font-size: 140pt;
   background-color: white;
@@ -8,12 +7,6 @@
 }
 
 #noahPadding{
-  font-family: monospace;
-  height: 50%;
-  color: black;
-  font-size: 140pt;
-  background-color: white;
-  text-align: left;
   position: absolute;
   top: 0;
   right: 0;
