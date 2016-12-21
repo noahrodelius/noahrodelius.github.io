@@ -17,6 +17,7 @@ div.parallax-container div.parallax {
 	color: #555;
 	font-size: 250px;
 	line-height: 80%;
+	z-index: -1;
 }
 .parallax2 {
 	color: ;
