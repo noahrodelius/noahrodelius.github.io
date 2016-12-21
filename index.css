@@ -17,7 +17,8 @@
 }
 
 #rodelius{
-  font-family: monospace;
+  font-family: Courier;
+  font-weight: bold;
   height: 50%;
   color: white;
   font-size: 140pt;
