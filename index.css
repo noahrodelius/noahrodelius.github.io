@@ -1,7 +1,7 @@
 #noah{
   font-family: monospace;
   color: black;
-
+  font-size: 140pt;
   background-color: white;
   text-align: left;
 }
@@ -19,7 +19,7 @@
   font-family: monospace;
   height: 50%;
   color: white;
-  font-size: ;
+  font-size: 140pt;
   background-color: black;
   text-align: left;
   position: absolute;
