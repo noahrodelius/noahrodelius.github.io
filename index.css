@@ -1,5 +1,6 @@
 #noah{
   font-family: monospace;
+  height: 50%;
   color: black;
   font-size: 140pt;
   background-color: white;
@@ -11,6 +12,7 @@
 
 #rodelius{
   font-family: monospace;
+  height: 50%;
   color: white;
   font-size: 140pt;
   background-color: black;
@@ -30,4 +32,8 @@
   margin-bottom: 0;
   padding: 11%;
   
+}
+
+body, html, {
+  height: 100%;
 }
