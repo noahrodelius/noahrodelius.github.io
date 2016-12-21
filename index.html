@@ -2,55 +2,47 @@
 <html>
   <head>
     <title>Noah Rodelius</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css"/>
-    <link href="index.css" rel="stylesheet" type="text/css">	  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="text.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="jquery.jkit.1.2.16.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css"/>
   </head>
   <body>
-   <meta name="viewport" content="width=device-width"/> 
-   <div id="noah">
-    <div class="container">
-      <div class="row" id="noahPadding" style="margin: 6%;">
-      </div>
-      <div class="row">
-        <div class="col-xs-5">
-          <div>
-           NOAH
-          </div>
-        </div>
-	<div class="col-xs-3">
-          <div id="info" onclick="switchInfo();" onmouseover="this.style.background='none'; this.style.color='#ff0000';" onmouseout="this.style.background='#ff0000'; this.style.color='white';" style="border: 1px solid #ff0000; text-align:center;">+info</div>
-        </div>
-	<div class="col-xs-4">
-        </div>      
-      </div>
-    </div>
-   </div>
-   <div id="rodelius">
-    <div class="container"> 
-      <div class="row">
-        <div class="col-xs-12">
-          <div> RODELIUS </div> 
-        </div>
-      </div>
-      <div class="row" style="margin: 0%;">
-      </div>
-    </div>
-   </div>
-  </body>
-  <script type="text/javascript">
-	function switchInfo(){
-		$("#info").html(function () {
-			$(".info").css("padding","10px");
-			$("#info").html(
-			"This will contain discussions concerning international soccer and taco bell" 
-     			 );
-		});
-		$("#info").click(function(){
-			$(".info").css("padding","0px");
-			$("#info").html("+info");
-			$("#info").off("click");
-		});
-	};
-  </script>
+		<div class="parallax-container" data-jkit="[parallax:strength=1;axis=both;scope=local]">
+			<div id="info" onclick="switchInfo();" onmouseover="this.style.background='none'; this.style.color='#ff0000';" onmouseout="this.style.background='#ff0000'; this.style.color='white';" style="border: 1px solid #ff0000; text-align:center;"><div style="margin: 10px">+info</div></div>
+			<div id="description"></div>
+			<div class="parallax parallax1"><div id="bottomBox"></div></div>
+			<div class="parallax parallax2">
+				<div class="container">
+					<div id="topTitle">NOAH</div>
+					<div id="bottomTitle">RODELIUS</div>
+				</div>
+			</div>
+			<div class="parallax parallax3"></div>
+		</div>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('body').jKit();
+	});
+	</script>
+<script type="text/javascript">
+function switchInfo(){
+	$("#info").html(function () {
+		$("#info").css("padding","10px");
+		$("#info").html(
+		"<div style='margin: 10px'>click to hide</div>"
+		);
+	});
+	$("#description").html(
+	"This will soon be a blog containing discussions concerning international soccer and taco bell."
+	);
+	$("#info").click(function(){
+		$("#info").css("padding","10px");
+		$("#info").html("<div style='margin: 10px'>+info</div>");
+		$("#description").html("");
+		$("#info").off("click");
+	});
+};
+</script>
+	</body>
 </html>
