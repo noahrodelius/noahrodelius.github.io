@@ -1,0 +1,26 @@
+.cardTab{
+  margin: .2em;
+  padding: 1.5em;
+  font-weight: 500;
+  border: 1px solid black;
+  font-size: 1em;
+}
+
+.cardTab:hover{
+  font-weight: 700;
+}
+
+.topbar{
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1em;
+}
+
+.slide{
+  height: 50em;
+  background-color: red;
+  margin: 1.8em;
+}
