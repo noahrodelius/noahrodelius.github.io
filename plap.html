@@ -24,14 +24,13 @@
             PART FOUR
           </div>
           <div class="slideHolder" id="8">
-		  plappy
           </div>
         </div>
         <div class="row">
           <div class="cardTab" id="5">
             PART THREE
           </div>
-          <div class="slideHolder" id="6">
+		<div class="slideHolder" id="6"><div class="caption"></div>
           </div>
         </div>
         <div class="row">
@@ -73,6 +72,7 @@
           $('.slide').removeClass('slide');
           $('#6').addClass('slide');
           $('#6').removeClass('slideHolder');
+	  $('.caption').html("<p>whom tryne plap and boof</p>");
           $('.slide').css("background-color","black")
       });
       $('#7').on('click', function () {
