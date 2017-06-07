@@ -19,6 +19,10 @@
   font-size: 1em;
 }
 
+.col-xs-6{
+  text-align: center;
+}
+
 .slide{
   height: 50em;
   background-color: red;
