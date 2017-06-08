@@ -1,17 +1,18 @@
-.slide1{
+.slide{
+  min-height: 100%;
+  min-width: 100%;
+}
+
+#one{
   background-color: #21DC00;
-  min-height: 100%;
-  min-width: 100%;
 }
 
-.slide2{
+#two{
   background-color: white;
-  min-height: 100%;
-  min-width: 100%;
+  text-align: center;
 }
 
-.slide3{
+#three{
   background-color: black;
-  min-height: 100%;
-  min-width: 100%;
+  text-align: center;
 }
