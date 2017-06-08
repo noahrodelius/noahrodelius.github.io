@@ -4,15 +4,100 @@
 }
 
 #one{
-  background-color: #21DC00;
+  background-color: #f6f0e8;
 }
 
 #two{
-  background-color: white;
+  background-color: #f1e8dc;
   text-align: center;
 }
 
 #three{
+  background-color: #ede1d1;
+  text-align: center;
+}
+
+#four{
+  background-color: #e8d9c5;
+  text-align: left;
+}
+
+#five{
   background-color: black;
+  color: white;
+  text-align: left;
+}
+
+#title{
+  font-size: 2em;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 25%;
+}
+
+#subtitle{
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#pd1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  display: none;
+}
+
+#pd2{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  display: none;
+}
+
+#pd3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  display: none;
+}
+
+#pd4{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  display: none;
+}
+
+.title{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 10em;
+}
+
+.description{
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 5%;
+}
+
+.mailto{
+  font-size: 1em;
+  margin-left: 10%;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+map{
   text-align: center;
 }
